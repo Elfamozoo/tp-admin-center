@@ -117,7 +117,7 @@ Windows Admin Center est une interface graphique web permettant de gérer à dis
 ![image-20.png](assets/image-20.png)
 
 - On le retrouve bien dans la liste des équipements :
-- On va donc cliquer sur `<SERVEUR>`.<domaine> afin de s’y connecter :
+- On va donc cliquer sur `<SERVEUR>`.`<domaine>` afin de s’y connecter :
 
 ![image-21.png](assets/image-21.png)
 
@@ -154,7 +154,7 @@ Windows Admin Center est une interface graphique web permettant de gérer à dis
 - Dans la case Adresse IP, saisir l’IPv4 statique de ton hôte `<POSTE>` (c’est-à-dire l’adresse attribuée dans notre réseau ici `<IP_DU_SERVEUR>`).
 - Type d’enregistrement DNS : Hôte (A)
 - Nom d’enregistrement : `<POSTE>`
-- Nom de domaine complet : `<POSTE>`.<domaine> (affiché en lecture seule)
+- Nom de domaine complet : `<POSTE>`.`<domaine>` (affiché en lecture seule)
 - Durée de vie (TTL) : laissez 3600
 - Une fois le champ Adresse IP rempli, cliquez sur Créer afin de valider l’enregistrement DNS.
 
